@@ -25,13 +25,14 @@ body {
 
 :root {
   --branco: #f8f9fa;
+  --laranja-principal: #f59f00;
 }
 
 /* HEADER */
 .navbar {
   width: 100vw;
   height: 10vh;
-  background-color: #ffa94d;
+  background-color: var(--laranja-principal);
 
   display: flex;
   justify-content: space-between;
