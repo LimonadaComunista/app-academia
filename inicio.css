@@ -28,7 +28,8 @@ body {
 
 /* HEADER */
 .navbar {
-  width: 100vw;
+  margin: auto;
+  width: 60vw;
   height: 10vh;
   background-color: var(--laranja-principal);
 
@@ -47,11 +48,23 @@ body {
 .menu-nav {
   font-size: 1.4rem;
   color: var(--branco);
-  width: 75%;
+  width: 60%;
   margin-right: 1.2rem;
 
   display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.menu-info {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 2.4rem;
+  gap: 1.6rem;
+}
+
+.gg-shopping-cart {
+  --ggs: 1.5;
 }
