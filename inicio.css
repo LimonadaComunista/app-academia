@@ -18,14 +18,17 @@ html {
 
 body {
   font-family: 'Rubik', sans-serif;
-  background-color: var(--branco);
+  background-color: #fff;
 }
 
 :root {
   --branco: #f8f9fa;
+  --cinza: #f1f3f5;
+  --cinza-escuro: #dee2e6;
   --laranja-principal: #f59f00;
   --laranja-fraco: #fff4e6;
   --laranja-médio: #ffd8a8;
+  --verde: #82c91e;
 }
 
 /* HEADER */
@@ -34,7 +37,7 @@ body {
   width: 50vw;
   height: 10vh;
   background-color: var(--laranja-principal);
-  box-shadow: 0px 10px 7.5px 0px var(--laranja-médio);
+  box-shadow: 0px 10px 7.5px 0px var(--cinza-escuro);
 
   display: flex;
   justify-content: space-around;
@@ -79,7 +82,53 @@ body {
 /* CARDÁPIO */
 .cardapio {
   margin: auto;
+  padding-top: 5vh;
   width: 50vw;
   height: 90vh;
-  background-color: var(--laranja-fraco);
+  background-color: var(--branco);
+}
+
+.promos {
+  color: var(--branco);
+  font-size: 1.6rem;
+  margin: auto;
+  width: 80%;
+  height: 20%;
+  background-color: #2f2f3f;
+  border-radius: 2.4rem;
+  box-shadow: 0px 10px 7.5px 0px var(--cinza-escuro);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.promo-info {
+  width: 60%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.promo-info.titulo {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.promo-info.preco {
+  color: var(--verde);
+}
+
+.promo-img {
+  width: 40%;
+  height: 100%;
+  border-radius: 0 2.4rem 2.4rem 0;
+  background-image: url(./imgs/pizza-grande.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
