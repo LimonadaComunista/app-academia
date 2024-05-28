@@ -27,11 +27,15 @@ body {
 }
 
 /* HEADER */
+header {
+}
+
 .navbar {
   margin: auto;
   width: 60vw;
   height: 10vh;
   background-color: var(--laranja-principal);
+  box-shadow: 0px 10px 5px 0px rgba(222, 226, 230, 1);
 
   display: flex;
   justify-content: space-around;
@@ -47,7 +51,7 @@ body {
 
 .menu-nav {
   font-size: 1.4rem;
-  color: var(--branco);
+  color: #fff;
   width: 60%;
   margin-right: 1.2rem;
 
@@ -67,4 +71,5 @@ body {
 
 .gg-shopping-cart {
   --ggs: 1.5;
+  margin-top: 50%;
 }
