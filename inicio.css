@@ -240,3 +240,8 @@ body {
 .bebida img {
   width: 80%;
 }
+
+.gg-arrow-right-o,
+.gg-arrow-left-o {
+  color: var(--verde);
+}
