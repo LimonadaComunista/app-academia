@@ -82,7 +82,7 @@ body {
 /* CARDÁPIO */
 .cardapio {
   margin: auto;
-  padding-top: 5vh;
+  padding-top: 4.8rem;
   width: 50vw;
   height: 90vh;
   background-color: var(--branco);
@@ -148,7 +148,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4.8rem;
+  gap: 3.2rem;
 }
 
 .tamanhos-cards {
