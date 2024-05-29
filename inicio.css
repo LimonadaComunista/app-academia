@@ -206,3 +206,32 @@ body {
 .pizza img {
   width: 75%;
 }
+
+.bebidas {
+  background-color: var(--cinza);
+  margin: auto;
+  margin-top: 4.8rem;
+  width: 75%;
+  padding: 3.2rem;
+  border-radius: 2.4rem;
+
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.bebida {
+  color: var(--laranja-principal);
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: #fff;
+  width: 20%;
+  padding: 1.2rem 0 1.2rem 0;
+  border-radius: 2.4rem;
+  box-shadow: 5px 5px 10px 0px var(--cinza-escuro);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
