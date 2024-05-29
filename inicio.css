@@ -37,7 +37,7 @@ body {
   width: 50vw;
   height: 10vh;
   background-color: var(--laranja-principal);
-  box-shadow: 0px 10px 7.5px 0px var(--cinza-escuro);
+  box-shadow: 0px 10px 10px 0px var(--cinza-escuro);
 
   display: flex;
   justify-content: space-around;
@@ -96,7 +96,7 @@ body {
   height: 20%;
   background-color: #2f2f3f;
   border-radius: 2.4rem;
-  box-shadow: 0px 10px 7.5px 0px var(--cinza-escuro);
+  box-shadow: 10px 10px 10px 0px var(--cinza-escuro);
 
   display: flex;
   justify-content: space-between;
@@ -126,9 +126,41 @@ body {
 .promo-img {
   width: 40%;
   height: 100%;
+
   border-radius: 0 2.4rem 2.4rem 0;
   background-image: url(./imgs/pizza-grande.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.tamanhos-pizza {
+  margin: auto;
+  margin-top: 6.4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.pizza {
+  color: var(--laranja-principal);
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: #fff;
+  width: 17.5%;
+  padding: 3.2rem 0 3.2rem 0;
+  border-radius: 2.4rem;
+  box-shadow: 5px 5px 10px 0px var(--cinza-escuro);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.pizza img {
+  width: 75%;
 }
