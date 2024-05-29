@@ -142,11 +142,10 @@ body {
 
 .tamanhos-pizza {
   margin: auto;
-  margin-top: 6.4rem;
+  margin-top: 4.8rem;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 4.8rem;
 }
@@ -159,6 +158,7 @@ body {
 }
 
 .pizza {
+  position: relative; /* Added */
   color: var(--laranja-principal);
   font-size: 1.6rem;
   font-weight: 600;
@@ -170,28 +170,33 @@ body {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 1.2rem;
+
+  transition: transform 0.3s, box-shadow 0.3s; /* Added */
+  transform-origin: center; /* Added */
 }
 
 .pizza:hover {
   background-color: var(--laranja-fraco);
-  scale: 1.1;
-  transition: all 0.3s;
+  transform: scale(1.025);
   box-shadow: 1.25px 1.25px 5px 0px var(--cinza-escuro);
 }
 
-.pizza.pequena:hover::after {
-  content: '4 pedaços';
+.pizza-info {
+  display: none;
+  position: absolute;
+  bottom: -2rem; /* Position the info below the card */
+  font-size: 1.2rem;
+  color: var(--laranja-principal);
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.pizza.media:hover::after {
-  content: '6 pedaços';
-}
-
-.pizza.grande:hover::after {
-  content: '8 pedaços';
+.pizza:hover .pizza-info {
+  display: block;
 }
 
 .pizza img {
