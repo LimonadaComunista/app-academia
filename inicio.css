@@ -227,12 +227,12 @@ body {
 }
 
 .bebida {
-  color: var(--laranja-principal);
+  color: var(--verde);
   font-size: 1.6rem;
   font-weight: 600;
-  background-color: #fff;
+  background-color: #2f2f3f;
   width: 20%;
-  padding: 1.2rem 0 1.2rem 0;
+  padding: 1.2rem 0 0 0;
   border-radius: 2.4rem;
   box-shadow: 5px 5px 10px 0px var(--cinza-escuro);
 
@@ -242,13 +242,33 @@ body {
   gap: 1.2rem;
 }
 
-.bebida img {
-  width: 80%;
+.bebida .refri {
+  height: 8rem;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0 0 2.4rem 2.4rem;
+}
+
+.coca {
+  background-image: url(./imgs/refri_coca.jpg);
+}
+
+.guarana {
+  background-image: url(./imgs/refri_guarana.jpg);
+}
+.h20 {
+  background-image: url(./imgs/refri_h2o.jpg);
+}
+.suco {
+  background-image: url(./imgs/refri_suco.jpg);
 }
 
 .gg-arrow-right-o,
 .gg-arrow-left-o {
-  color: var(--verde);
+  color: #4f4f68;
+  --ggs: 1.5;
 }
 
 footer {
