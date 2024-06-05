@@ -82,6 +82,7 @@ body {
 .gg-shopping-cart {
   --ggs: 1.5;
   margin-top: 50%;
+  cursor: pointer;
 }
 
 /* CARDÁPIO */
