@@ -113,7 +113,7 @@ body {
 }
 
 .tamanho-pizza {
-  width: 90%;
+  width: 80%;
   height: 25%;
   background-color: var(--cinza);
   border-radius: 2.4rem;
@@ -121,7 +121,7 @@ body {
 }
 
 .sabores-pizza {
-  width: 90%;
+  width: 95%;
   height: 75%;
   background-color: var(--cinza);
   margin-bottom: 2.4rem;
