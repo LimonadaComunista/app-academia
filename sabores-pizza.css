@@ -88,10 +88,15 @@ body {
 /* CARDÁPIO */
 .cardapio {
   margin: auto;
-  padding-top: 4.8rem;
   width: 50vw;
   height: 85vh;
   background-color: var(--branco);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.6rem;
 }
 
 .sabores-container {
@@ -100,6 +105,28 @@ body {
   height: 95%;
   background-color: var(--cinza-escuro);
   border-radius: 2.4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.tamanho-pizza {
+  width: 90%;
+  height: 25%;
+  background-color: var(--cinza);
+  border-radius: 2.4rem;
+  margin-top: 2.4rem;
+}
+
+.sabores-pizza {
+  width: 90%;
+  height: 75%;
+  background-color: var(--cinza);
+  margin-bottom: 2.4rem;
+  border-radius: 2.4rem;
+  overflow-y: scroll;
 }
 
 /* FOOTER + STATUS */
