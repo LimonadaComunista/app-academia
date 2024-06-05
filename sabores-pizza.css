@@ -297,7 +297,7 @@ footer {
   height: 5vh;
   background-color: #4f4f68;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.6rem;
 
   display: flex;
   flex-direction: column;
@@ -305,7 +305,7 @@ footer {
   justify-content: space-evenly;
 }
 
-.footer-empresa {
+.status {
+  font-weight: 600;
   color: var(--verde);
-  cursor: pointer;
 }
