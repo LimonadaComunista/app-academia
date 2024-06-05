@@ -276,8 +276,8 @@ body {
   background-image: url(./imgs/refri_suco.jpg);
 }
 
-.gg-arrow-right-o,
-.gg-arrow-left-o {
+.gg-chevron-left,
+.gg-chevron-right {
   color: #4f4f68;
   --ggs: 1.5;
   font-weight: 600;
