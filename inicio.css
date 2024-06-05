@@ -307,4 +307,5 @@ footer {
 
 .footer-empresa {
   color: var(--verde);
+  cursor: pointer;
 }
