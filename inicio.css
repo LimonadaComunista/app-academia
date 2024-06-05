@@ -139,12 +139,6 @@ body {
   background-position: center;
 }
 
-.tamanho-pizza-titulo {
-  font-size: 1.6rem;
-  color: var(--laranja-principal);
-  font-weight: 600;
-}
-
 .tamanhos-pizza {
   background-color: var(--cinza);
   margin: auto;
@@ -159,7 +153,15 @@ body {
   gap: 3.2rem;
 }
 
+.tamanho-pizza-titulo {
+  font-size: 1.6rem;
+  color: var(--laranja-principal);
+  font-weight: 600;
+}
+
 .tamanhos-cards {
+  width: 90%;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,6 +176,8 @@ body {
   background-color: #fff;
   border-radius: 2.4rem;
   box-shadow: 5px 5px 10px 0px var(--cinza-escuro);
+  width: 100%;
+  padding-top: 1.2rem;
 
   display: flex;
   flex-direction: column;
@@ -186,7 +190,7 @@ body {
 
 .pizza:hover {
   background-color: var(--laranja-fraco);
-  transform: scale(1.025);
+  transform: scale(1.05);
   box-shadow: 1.25px 1.25px 5px 0px var(--cinza-escuro);
 }
 
