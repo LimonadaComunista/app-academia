@@ -94,202 +94,15 @@ body {
   background-color: var(--branco);
 }
 
-.promos {
-  color: var(--branco);
-  font-size: 1.6rem;
+.sabores-container {
   margin: auto;
-  width: 75%;
-  height: 20%;
-  background-color: #2f2f3f;
-  border-radius: 2.4rem;
-  box-shadow: 10px 10px 10px 0px var(--cinza-escuro);
-  cursor: pointer;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1.6rem;
-}
-
-.promo-info {
-  width: 60%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1.6rem;
-}
-
-.promo-info.titulo {
-  font-size: 1.8rem;
-  font-weight: 600;
-}
-
-.promo-info.preco {
-  color: var(--verde);
-}
-
-.promo-img {
-  width: 50%;
-  height: 100%;
-
-  border-radius: 0 2.4rem 2.4rem 0;
-  background-image: url(./imgs/pizza-grande.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.tamanhos-pizza {
-  background-color: var(--cinza);
-  margin: auto;
-  margin-top: 4.8rem;
-  width: 75%;
-  padding: 3.2rem;
-  border-radius: 2.4rem;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3.2rem;
-}
-
-.tamanho-pizza-titulo {
-  font-size: 1.6rem;
-  color: var(--laranja-principal);
-  font-weight: 600;
-}
-
-.tamanhos-cards {
   width: 90%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4.8rem;
-}
-
-.pizza {
-  position: relative; /* Added */
-  color: var(--laranja-principal);
-  font-size: 1.6rem;
-  font-weight: 600;
-  background-color: #fff;
+  height: 95%;
+  background-color: var(--cinza-escuro);
   border-radius: 2.4rem;
-  box-shadow: 5px 5px 10px 0px var(--cinza-escuro);
-  width: 100%;
-  padding-top: 1.2rem;
-  cursor: pointer;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.2rem;
-
-  transition: transform 0.3s, box-shadow 0.3s; /* Added */
-  transform-origin: center; /* Added */
 }
 
-.pizza:hover {
-  background-color: var(--laranja-fraco);
-  transform: scale(1.05);
-  box-shadow: 1.25px 1.25px 5px 0px var(--cinza-escuro);
-}
-
-.pizza-img {
-  height: 8rem;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 0 0 2.4rem 2.4rem;
-}
-
-.pizza-img {
-  background-image: url(./imgs/pizza.jpg);
-}
-
-.pizza-info {
-  display: none;
-  position: absolute;
-  bottom: -1.2rem; /* Position the info below the card */
-  font-size: 1.2rem;
-  color: var(--verde);
-  background-color: #fff;
-  padding: 0.5rem 1rem;
-  border-radius: 1rem;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.pizza:hover .pizza-info {
-  display: block;
-}
-
-.bebidas {
-  background-color: var(--cinza);
-  margin: auto;
-  margin-top: 4.8rem;
-  width: 75%;
-  padding: 3.2rem;
-  border-radius: 2.4rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 3.2rem;
-}
-
-.bebida {
-  color: var(--verde);
-  font-size: 1.6rem;
-  font-weight: 600;
-  background-color: var(--branco);
-  width: 20%;
-  padding: 1.2rem 0 0 0;
-  border-radius: 2.4rem;
-  box-shadow: 5px 5px 10px 0px var(--cinza-escuro);
-  cursor: pointer;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.2rem;
-}
-
-.bebida .refri {
-  height: 8rem;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 0 0 2.4rem 2.4rem;
-}
-
-.coca {
-  background-image: url(./imgs/refri_coca.jpg);
-}
-
-.guarana {
-  background-image: url(./imgs/refri_guarana.jpg);
-}
-
-.h20 {
-  background-image: url(./imgs/refri_h2o.jpg);
-}
-
-.suco {
-  background-image: url(./imgs/refri_suco.jpg);
-}
-
-.gg-chevron-left,
-.gg-chevron-right {
-  color: #4f4f68;
-  --ggs: 1.5;
-  font-weight: 600;
-  cursor: pointer;
-}
-
+/* FOOTER + STATUS */
 footer {
   margin: auto;
 
@@ -305,7 +118,7 @@ footer {
   justify-content: space-evenly;
 }
 
-.status {
+footer .status {
   font-weight: 600;
   color: var(--verde);
 }
